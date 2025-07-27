@@ -106,34 +106,41 @@
         <h2>🎯 What Information We Collect</h2>
         <div class="highlight-box">
             <ul>
-                {% for data_type in data_types_collected %}
-                <li>{{ data_type }}</li>
-                {% endfor %}
+                                <li>Username and display name</li>
+                <li>Email address</li>
+                <li>Game progress and scores</li>
+                <li>Device information</li>
+                <li>Usage analytics</li>
             </ul>
         </div>
 
         <h2>🔧 How We Use Your Information</h2>
         <ul>
-            {% for purpose in purposes_of_use %}
-            <li>{{ purpose }}</li>
-            {% endfor %}
+                        <li>To provide and maintain the game service</li>
+            <li>To manage your game account and progress</li>
+            <li>To provide customer support</li>
+            <li>To improve game performance and features</li>
+            <li>To send important game updates</li>
+            <li>To analyze usage patterns</li>
         </ul>
 
         <h2>🤝 Information Sharing</h2>
         <p>We only share your information in these situations:</p>
         <ul>
-            {% for situation in sharing_situations %}
-            <li>{{ situation }}</li>
-            {% endfor %}
+                        <li>With service providers (analytics, hosting)</li>
+            <li>For legal compliance</li>
+            <li>With your explicit consent</li>
         </ul>
 
         <h2>⚖️ Your Rights</h2>
         <div class="highlight-box">
             <p>You have the right to:</p>
             <ul>
-                {% for right in user_rights %}
-                <li>{{ right }}</li>
-                {% endfor %}
+                                <li>Access your personal data</li>
+                <li>Correct inaccurate information</li>
+                <li>Delete your account and data</li>
+                <li>Export your game data</li>
+                <li>Opt out of analytics</li>
             </ul>
         </div>
 
@@ -150,7 +157,7 @@
             <h2>📞 Contact Us</h2>
             <p>Questions about this Privacy Policy? Contact us:</p>
             <ul>
-                <li>🌐 <a href="https://docs.google.com/forms/d/1iO3CZFkj37-fUQvyx5rvshLn-SZA6X2fbfBGRVQb0lw/viewform" target="_blank">Support Form</a></li>
+                <li>🌐 <a href="https://docs.google.com/forms/d/18HbgQXFWHOXcwRxeaC9yboPOmbPN1neY0FeriRcNU9w/viewform" target="_blank">Support Form</a></li>
                 {% if contact_email %}<li>📧 <a href="mailto:support@thailearnereducation.com">support@thailearnereducation.com</a></li>{% endif %}
             </ul>
         </div>
